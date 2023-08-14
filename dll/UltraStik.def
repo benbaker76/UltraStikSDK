@@ -1,0 +1,19 @@
+LIBRARY UltraStik
+EXPORTS
+	UltraStik_SetCallbacks			@1
+	UltraStik_Initialize			@2
+	UltraStik_Shutdown				@3
+	UltraStik_GetVendorId			@4
+	UltraStik_GetProductId			@5
+	UltraStik_GetVersionNumber		@6
+	UltraStik_GetVendorName			@7
+	UltraStik_GetProductName		@8
+	UltraStik_GetSerialNumber		@9
+	UltraStik_GetDevicePath			@10
+	UltraStik_SetRestrictor			@11
+	UltraStik_SetFlash				@12
+	UltraStik_GetUltraStikId		@13
+	UltraStik_SetUltraStikId		@14
+	UltraStik_LoadMap				@15
+	UltraStik_LoadMapFile			@16
+	UltraStik_LoadConfigFile		@17

@@ -1,0 +1,17 @@
+@ECHO OFF
+CD %~dp0
+copy UltraStik32.dll "..\..\dlls\"
+copy UltraStik32.dll "..\..\C#\bin\Debug\"
+copy UltraStik32.dll "..\..\VB.NET\bin\Debug\"
+copy UltraStik32.dll "..\..\VB6\"
+copy UltraStik32.dll "..\..\Delphi\"
+copy UltraStik32.dll "..\..\C++\Release"
+copy UltraStik32.lib "..\..\C++\"
+copy UltraStik64.dll "..\..\dlls\"
+copy UltraStik64.dll "..\..\C#\bin\Debug\"
+copy UltraStik64.dll "..\..\VB.NET\bin\Debug\"
+copy UltraStik64.dll "..\..\VB6\"
+copy UltraStik64.dll "..\..\Delphi\"
+copy UltraStik64.dll "..\..\C++\Release"
+copy UltraStik64.lib "..\..\C++\"
+copy ..\UltraStik.h "..\..\C++"
